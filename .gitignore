@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build output
+*.out
+
+# Go coverage / profiling
+*.cover
+*.coverprofile
+*.cov
+*.prof
+*.profraw
+*.pprof
+coverage.txt
+cpu.out
+mem.out
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency / module caches
+vendor/
