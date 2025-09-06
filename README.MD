@@ -1,12 +1,12 @@
 # TOTP
 
+[![Go CI](https://github.com/YouSysAdmin/totp/actions/workflows/go.yml/badge.svg)](https://github.com/YouSysAdmin/totp/actions/workflows/go.yml)
+
 Tiny Go helper for generating 6-digit TOTP codes (RFC 6238, HMAC-SHA1).
 
 ## Features
 
-- 6-digit codes with proper zero-padding at the call site.
-- Base32 secret decoding with error handling.
-- Deterministic, timestamp-based generator suitable for tests/examples.
+- Generate 6-digit TOTP code from MFA secret
 
 ## Install
 
